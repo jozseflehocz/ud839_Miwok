@@ -1,7 +1,5 @@
 package com.example.android.miwok;
 
-import android.content.Context;
-
 /**
  * Created by jlehocz on 2018.03.16..
  */
