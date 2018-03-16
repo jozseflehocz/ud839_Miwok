@@ -57,11 +57,11 @@ public class NumbersActivity extends AppCompatActivity {
 
         ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, words);
 
-        ListView listView = (ListView) findViewById(R.id.list);
-//        GridView gridView=(GridView) findViewById(R.id.gridview);
+//        ListView listView = (ListView) findViewById(R.id.list);
+        GridView gridView=(GridView) findViewById(R.id.gridview);
 
-        listView.setAdapter(itemsAdapter);
-//        gridView.setAdapter(itemsAdapter);
+//        listView.setAdapter(itemsAdapter);
+        gridView.setAdapter(itemsAdapter);
 
     }
 }
