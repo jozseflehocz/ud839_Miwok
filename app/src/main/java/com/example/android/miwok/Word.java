@@ -20,7 +20,7 @@ public class Word {
         return mDefaultTranslation;
     }
 
-    public void setmMiwokTranslation(String mMiwokTranslation) {
-        this.mMiwokTranslation = mMiwokTranslation;
+    public String getmMiwokTranslation() {
+        return mMiwokTranslation;
     }
 }
