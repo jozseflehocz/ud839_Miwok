@@ -93,6 +93,11 @@ public class WordAdapter extends ArrayAdapter<Word>  {
 
         // Return the whole list item layout (containing 2 TextViews) so that it can be shown in
         // the ListView.
+
+        ImageView playIconView = (ImageView) listItemView.findViewById(R.id.play_icon);
+        playIconView.setImageResource(R.drawable.ic_play_arrow_white_24dp);
+        playIconView.setBackgroundColor(color);
+
         return listItemView;
     }
 }

@@ -12,7 +12,8 @@
 
     <LinearLayout
         android:id="@+id/text_container"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="10"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:minHeight="@dimen/list_item_height"
@@ -39,4 +40,10 @@
             android:textColor="@android:color/white"
             tools:text="one" />
     </LinearLayout>
+    <ImageView
+        android:id="@+id/play_icon"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="@dimen/list_item_height"
+        android:paddingRight="16dp"/>
 </LinearLayout>
